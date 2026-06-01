@@ -39,6 +39,26 @@ https://github.com/BEBC-25/java-yong
 
 ---
 
+## 🛠️ 개발 환경
+
+### Java 버전
+- **Java 21** (LTS - Long Term Support)
+- OpenJDK 21.x
+
+### 개발 도구
+- **IDE**: IntelliJ IDEA
+- **빌드 도구**: Maven / Gradle (필요시)
+- **버전 관리**: Git / GitHub
+
+### JDK 설치
+```bash
+# JDK 설치 확인
+java -version
+javac -version
+```
+
+---
+
 ## 📖 참고 사이트
 
 ### 자바 학습
