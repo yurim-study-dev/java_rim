@@ -4,16 +4,23 @@ Java 프로그래밍 학습 자료 저장소
 
 매일 배운 내용을 **Today I Learned (TIL)** 마크다운으로 기록하고 있습니다.
 
+**TIL 위치:** `workspace/TIL/` 폴더
+
 ---
 
-## 📚 학습 내용
+## 📖 목차
 
+### 1️⃣ 자바 기초
 - Chapter 5: 변수와 자료형
 - Chapter 6: 연산자
 - Chapter 7: 조건문
 - Chapter 8: 반복문
 - Chapter 9: 배열
 - Chapter 10: 메서드
+
+### 2️⃣ 자바 심화 (객체지향 및 고급 API)
+- Chapter 11: 클래스와 객체
+- Chapter 12: 상속과 다형성
 - ... (계속 진행 중)
 
 ---
