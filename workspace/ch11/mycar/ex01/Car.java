@@ -1,5 +1,6 @@
-package ch11.mycar;
+package ch11.mycar.ex01;
 
+// 필드와 메서드를 정의한 클래스
 public class Car {
     // 필드
     String model;
