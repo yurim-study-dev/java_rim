@@ -8,13 +8,6 @@ public class Car {
     int speed; // 필드를 초기화 하지 않으면 기본값으로 초기화 됨
     int gear;
 
-    // 생성자: 인스턴스가 생성될 때 자동으로 호출되는 메서드
-    // 클래스 내부에 생성자를 하나도 만들지 않을 경우에 자바 컴파일러가 기본 생성자를 만들어준다.
-    // 생성자를 하나라도 명시적으로 만들었을 경우에는 기본 생성자가 만들어지지 않음.
-    // 기본 생성자: 매개변수가 없는 생성자
-    Car(){
-        System.out.println("Car() 생성자 호출됨.");
-    }
 
     // 생성자는 오버로딩이 가능함
     Car(String model){
@@ -22,12 +15,7 @@ public class Car {
         this.model = model; // this는 자기 자신 인스턴스의 참조 변수
     }
 
-    // 생성자는 오버로딩이 가능함
-    Car(String model, int speed){
-        System.out.println("Car(String name) 생성자 호출됨.");
-        this.model = model; // this는 자기 자신 인스턴스의 참조 변수
-        this.speed = speed;
-    }
+
 
     // 10Km/h 가속한다.
     void speedUp(){
