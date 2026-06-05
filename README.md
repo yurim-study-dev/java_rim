@@ -9,6 +9,8 @@ Java 프로그래밍 학습 자료 저장소
 ---
 
 ## 📖 목차
+<img width="1816" height="928" alt="image" src="https://github.com/user-attachments/assets/8c0314f0-d792-4a5c-a78e-8bb348dd3308" />
+
 
 ### 1️⃣ 자바 기초
 - Chapter 5: 변수와 자료형
