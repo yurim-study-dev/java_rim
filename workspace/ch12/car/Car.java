@@ -8,25 +8,34 @@ public class Car {
     int speed; // 필드를 초기화 하지 않으면 기본값으로 초기화 됨
     int gear;
 
-
     // 생성자는 오버로딩이 가능함
     Car(String model){
         System.out.println("Car(String name) 생성자 호출됨.");
         this.model = model; // this는 자기 자신 인스턴스의 참조 변수
     }
 
-
-
     // 10Km/h 가속한다.
     void speedUp(){
-        speed += 10;
-        System.out.println("가속합니다. 현재 속도는 " + speed + "Km/h 입니다.");
+        speedUp(10);
+    }
+
+    // speed 만큼 가속한다.
+    // 메서드 오버로딩
+    void speedUp(int speed){
+        this.speed += speed;
+        System.out.println("가속합니다. 현재 속도는 " + this.speed + "Km/h 입니다.");
     }
 
     // 10Km/h 감속한다.
     void speedDown(){
-        speed -= 10;
-        System.out.println("감속합니다. 현재 속도는 " + speed + "Km/h 입니다.");
+        speedDown(10);
+    }
+
+    // speed 만큼 감속한다.
+    // 메서드 오버로딩
+    void speedDown(int speed){
+        this.speed -= speed;
+        System.out.println("감속합니다. 현재 속도는 " + this.speed + "Km/h 입니다.");
     }
 
     // 기어를 1단 올린다.
