@@ -1,5 +1,6 @@
-package ch12.family.ex02;
+package ch13.familly.ex01;
 
+// 상속, 다형성, instanceof 사용
 public class Parent {
     String name;
 
