@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/out/production/java_rim/ch08" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/workspace" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
