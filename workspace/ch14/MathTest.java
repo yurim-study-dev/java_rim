@@ -20,5 +20,13 @@ public class MathTest {
         // 5. pow(), sqrt(): 거듭제곱, 제곱근
         System.out.println(Math.pow(2, 3)); // 8.0
         System.out.println(Math.sqrt(16)); // 4.0
+
+        // 6. 소수 둘째자리에서 반올림
+        System.out.println(Math.round(89.6781*10)/10);
+
+        // 7. 무작위의 주사위 숫자 추출
+        System.out.println((int)(Math.random()*6)+1);
+        System.out.println(Math.PI);
+
     }
 }
