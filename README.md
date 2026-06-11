@@ -4,7 +4,7 @@ Java 프로그래밍 학습 자료 저장소
 
 매일 배운 내용을 **Today I Learned (TIL)** 마크다운으로 기록하고 있습니다.
 
-**TIL 위치:** `workspace/TIL/` 폴더
+**TIL 위치:** `docs/TIL/` 폴더
 
 ---
 
@@ -25,11 +25,11 @@ Java 프로그래밍 학습 자료 저장소
 - [Chapter 12: 상속과 다형성](docs/02.java_oop.md#12-객체지향-심화---상속inheritance)
 - [Chapter 13: 다형성(Polymorphism)과 인터페이스](docs/02.java_oop.md#13-객체지향-심화---다형성polymorphism과-인터페이스)
 - [Chapter 14: 자바 주요 패키지와 API](docs/02.java_oop.md#14-자바-주요-패키지와-api)
-- [Chapter 15: 자료 구조와 컬렉션 프레임워크(Collection)](docs/02.java_oop.md#15-자료-구조와-컬렉션-프레임워크collection)
-- [Chapter 16: 모던 자바 - 람다(Lambda)와 함수형 프로그래밍](docs/02.java_oop.md#16-모던-자바---람다lambda와-함수형-프로그래밍)
-- [Chapter 17: 데이터 가공 - 스트림(Stream) API](docs/02.java_oop.md#17-데이터-가공---스트림stream-api)
-- [Chapter 18: 예외 처리(Exception)](docs/02.java_oop.md#18-예외-처리exception)
-- [Chapter 19: 소프트웨어 품질과 TDD 철학](docs/02.java_oop.md#19-소프트웨어-품질과-tdd-철학)
+
+### 3️⃣ 데이터베이스 프로그래밍
+- [Chapter 1: 데이터베이스 기초 및 RDBMS 구조](docs/03.database-1.md#1-데이터베이스-기초)
+- [Chapter 2: SQL 기본 (DDL, DML, SELECT)](docs/03.database-1.md#2-sql-기본)
+- [Chapter 3: SQL 실무 (JOIN, 서브쿼리, 설계)](docs/03.database-1.md#3-sql-실무)
 
 ---
 
