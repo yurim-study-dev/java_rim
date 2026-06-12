@@ -101,6 +101,9 @@ javac -version
 - [위키독스 프로그래밍 입문자를 위한 Java 기초](https://wikidocs.net/book/2970)
 - [Oracle Java Tutorials (dev.java)](https://dev.java/learn)
 
+### 기타 도구
+- [gitignore.io - .gitignore 자동 생성](https://www.toptal.com/developers/gitignore)
+
 ### 코딩 테스트
 - [프로그래머스 코딩 테스트](https://school.programmers.co.kr/learn/challenges)
 - [자바 기초 트레이닝](https://school.programmers.co.kr/learn/challenges/training?languages=java)
