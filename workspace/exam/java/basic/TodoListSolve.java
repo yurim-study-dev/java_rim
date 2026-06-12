@@ -26,40 +26,41 @@ New > Java Class를 선택하고, 클래스명 입력란에 exam.java.basic.Todo
 3. 우편물찾기
 4. 부모님께 전화하기
 5. 저녁식사 준비하기
-
+*/
 package exam.java.basic;
 
-public class TodoList {
+public class TodoListSolve {
     // 1. 할 일 목록 배열을 전달받아 전체 할 일 개수를 반환하는 메서드
-  [ 빈칸 1 ] getTodoCount(String[] list) {
-        return list.[ 빈칸 2 ];
+    int getTodoCount(String[] list) {
+        return list.length;
     }
+
     // 2. 할 일 목록 배열을 전달받아 번호와 함께 목록을 출력하는 메서드
-  [ 빈칸 3 ] printTodoList(String[] list) {
-        for (int i = 0; i < list.[ 빈칸 4 ]; i++) {
-            System.out.println((i + 1) + ". " + list[[ 빈칸 5 ]]);
+    void printTodoList(String[] list) {
+        for (int i = 0; i < list.length; i++) {
+            System.out.println("4/8.   " + (i + 1) + ". " + list[i]);
         }
     }
+
     void main() {
         // 3. 문자열 배열 변수 todayTodoList 선언
-    [ 빈칸 6 ] todayTodoList;
+        String[] todayTodoList;
         // 4. 문자열 배열 생성 및 할 일 목록 초기화
-        todayTodoList = [ 빈칸 7 ] {"자바 공부하기", "운동하기", "독서하기"};
+        todayTodoList = new String[] {"자바 공부하기", "운동하기", "독서하기"};
         // 5. 전체 할 일 개수를 가져오는 메서드 호출
-        int count = [ 빈칸 8 ](todayTodoList);
-        System.out.println("오늘의 할 일 개수: " + [ 빈칸 9 ] + "개");
-        System.out.println("오늘의 할 일 목록");
-        System.out.println("----------------");
+        int count = getTodoCount(todayTodoList);
+        System.out.println("1. 오늘의 할 일 개수: " + count + "개");
+        System.out.println("2. 오늘의 할 일 목록");
+        System.out.println("3. ----------------");
         // 6. 할 일 목록을 출력하는 메서드 호출
-    [ 빈칸 10 ](todayTodoList);
+        printTodoList(todayTodoList);
         System.out.println(); // 한 줄 개행
         // 5개짜리 내일의 할 일 목록 생성 및 출력
         String[] tomorrowTodoList = {"마트가기", "청소하기", "우편물찾기", "부모님께 전화하기", "저녁식사 준비하기"};
-        count = [ 빈칸 8 ](tomorrowTodoList);
-        System.out.println("내일의 할 일 개수: " + [ 빈칸 9 ] + "개");
-        System.out.println("내일의 할 일 목록");
-        System.out.println("----------------");
-    [ 빈칸 10 ](tomorrowTodoList);
+        count = getTodoCount(tomorrowTodoList);
+        System.out.println("5. 내일의 할 일 개수: " + count + "개");
+        System.out.println("6. 내일의 할 일 목록");
+        System.out.println("7. ----------------");
+        printTodoList(tomorrowTodoList);
     }
 }
-*/

@@ -58,7 +58,6 @@ create table post (
 
 );
 
-truncate table post;
 
 -- 게시글 테이블 데이터 삽입
 insert into post (userid,title, content) values
