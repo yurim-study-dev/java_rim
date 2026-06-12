@@ -13,23 +13,23 @@ Java 프로그래밍 학습 자료 저장소
 
 
 ### 1️⃣ 자바 기초
-- [Chapter 5: 변수와 자료형](docs/01.java_basic.md#5-데이터-타입과-변수)
-- [Chapter 6: 연산자](docs/01.java_basic.md#6-연산자)
-- [Chapter 7: 조건문](docs/01.java_basic.md#7-조건문)
-- [Chapter 8: 반복문](docs/01.java_basic.md#8-반복문)
-- [Chapter 9: 배열](docs/01.java_basic.md#9-배열과-메모리-관리)
-- [Chapter 10: 메서드](docs/01.java_basic.md#10-메서드method)
+- [Chapter 5: 변수와 자료형](docs/lecture/01.java_basic.md#5-데이터-타입과-변수)
+- [Chapter 6: 연산자](docs/lecture/01.java_basic.md#6-연산자)
+- [Chapter 7: 조건문](docs/lecture/01.java_basic.md#7-조건문)
+- [Chapter 8: 반복문](docs/lecture/01.java_basic.md#8-반복문)
+- [Chapter 9: 배열](docs/lecture/01.java_basic.md#9-배열과-메모리-관리)
+- [Chapter 10: 메서드](docs/lecture/01.java_basic.md#10-메서드method)
 
 ### 2️⃣ 자바 심화 (객체지향 및 고급 API)
-- [Chapter 11: 클래스와 객체](docs/02.java_oop.md#11-객체지향-프로그래밍oop-기초)
-- [Chapter 12: 상속과 다형성](docs/02.java_oop.md#12-객체지향-심화---상속inheritance)
-- [Chapter 13: 다형성(Polymorphism)과 인터페이스](docs/02.java_oop.md#13-객체지향-심화---다형성polymorphism과-인터페이스)
-- [Chapter 14: 자바 주요 패키지와 API](docs/02.java_oop.md#14-자바-주요-패키지와-api)
+- [Chapter 11: 클래스와 객체](docs/lecture/02.java_oop.md#11-객체지향-프로그래밍oop-기초)
+- [Chapter 12: 상속과 다형성](docs/lecture/02.java_oop.md#12-객체지향-심화---상속inheritance)
+- [Chapter 13: 다형성(Polymorphism)과 인터페이스](docs/lecture/02.java_oop.md#13-객체지향-심화---다형성polymorphism과-인터페이스)
+- [Chapter 14: 자바 주요 패키지와 API](docs/lecture/02.java_oop.md#14-자바-주요-패키지와-api)
 
 ### 3️⃣ 데이터베이스 프로그래밍
-- [Chapter 1: 데이터베이스 기초 및 RDBMS 구조](docs/03.database-1.md#1-데이터베이스-기초)
-- [Chapter 2: SQL 기본 (DDL, DML, SELECT)](docs/03.database-1.md#2-sql-기본)
-- [Chapter 3: SQL 실무 (JOIN, 서브쿼리, 설계)](docs/03.database-1.md#3-sql-실무)
+- [Chapter 1: 데이터베이스 기초 및 RDBMS 구조](docs/lecture/03.database-1.md#1-데이터베이스-기초)
+- [Chapter 2: SQL 기본 (DDL, DML, SELECT)](docs/lecture/03.database-1.md#2-sql-기본)
+- [Chapter 3: SQL 실무 (JOIN, 서브쿼리, 설계)](docs/lecture/03.database-1.md#3-sql-실무)
 
 ---
 
@@ -70,7 +70,7 @@ https://github.com/BEBC-25/java-yong
 ## 📄 강의 참고자료
 
 강의 참고자료는 다음 경로에 저장되어 있습니다:
-- `docs/` 폴더 - 강사님 강의 자료
+- `docs/lecture/` 폴더 - 강사님 강의 자료
 
 ---
 
