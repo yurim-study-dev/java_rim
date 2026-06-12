@@ -1,3 +1,9 @@
+# Claude Code 설정 파일
+.claude/
+
+# IntelliJ 설정 파일
+.idea/
+
 # IntelliJ 빌드 출력
 out/
 
