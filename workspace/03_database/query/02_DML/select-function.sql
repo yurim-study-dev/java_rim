@@ -63,3 +63,57 @@ WHERE created_at < DATE_SUB(CURDATE(), INTERVAL '34 12' DAY_HOUR);
 -- 각 회원의 가입 경과일수를 조회 
 select name, created_at, DATEDIFF(CURDATE(), created_at) as days_since_join
 from member;
+
+
+-- 모든 회원수 조회
+select COUNT(*)
+from member;
+
+-- 모든 게시글 수 조회
+select COUNT(*)
+from POST;
+
+-- id = 3 인 모든 게시글의 총 게시글 수 조회
+select member_id ,COUNT(*) as total_count
+from post
+where member_id=3;
+
+-- id =3 인 회원의 모든 게시글 조회
+select member_id,view_count
+from post
+where member_id=3;
+
+
+-- id = 3 인 회원의 모든 게시글의 총 조회수 
+select member_id,SUM(view_count) as totl_views, AVG(view_count) as avg_views
+,MIN(view_count) as min_views, MAX(view_count) as max_views
+-- ,title
+from post
+where member_id=3;
+
+
+-- 전화번호가 NULL 인 회원은 '미등록'으로 표시하여 조회
+SELECT name, IFNULL(phone, '미등록') AS phone
+    FROM member;
+
+-- 전화번호가 NULL이면 이메일을, 이메일도 NULL이면 '연락처 없음'으로 표시
+SELECT name, COALESCE(phone, email, '연락처 없음') AS contact
+    FROM member;
+
+-- 전화번호 등록 여부에 따라 상태를 표시하여 조회
+SELECT name, IF(phone IS NULL, '연락처 없음', '연락처 등록') AS phone_status
+    FROM member;
+
+
+-- 회원 가입 연도에 따른 회원 등급 부여 조회
+SELECT name, created_at, 
+    CASE
+        WHEN created_at < DATE_SUB(NOW(), INTERVAL 1 YEAR) THEN '우수 회원'
+        WHEN created_at < DATE_SUB(NOW(), INTERVAL 1 MONTH) THEN '일반 회원'
+        ELSE '신규 회원'
+    END AS member_grade
+    FROM member;
+
+
+
+
