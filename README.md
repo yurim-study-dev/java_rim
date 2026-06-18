@@ -30,6 +30,8 @@ Java 프로그래밍 학습 자료 저장소
 - [Chapter 1: 데이터베이스 기초 및 RDBMS 구조](docs/lecture/03.database-1.md#1-데이터베이스-기초)
 - [Chapter 2: SQL 기본 (DDL, DML, SELECT)](docs/lecture/03.database-1.md#2-sql-기본)
 - [Chapter 3: SQL 실무 (JOIN, 서브쿼리, 설계)](docs/lecture/03.database-1.md#3-sql-실무)
+- [Chapter 6: 트랜잭션, 데이터 무결성](docs/lecture/04.database-2.md#6-트랜잭션의-이해)
+- [Chapter 7: JDBC 프로그래밍](docs/lecture/04.database-2.md#7-jdbc-java-database-connectivity)
 
 ---
 
@@ -50,10 +52,12 @@ workspace/
 │   ├── ch13/           # 다형성과 인터페이스
 │   └── ch14/           # 자바 주요 패키지와 API
 ├── 03_database/        # 데이터베이스
+│   ├── ch07/           # JDBC 프로그래밍 실습
 │   └── query/
 │       ├── 01_DDL/     # CREATE, DROP 등
 │       ├── 02_DML/     # SELECT, INSERT, UPDATE, DELETE
-│       └── 03_DCL/     # 사용자 권한 관리
+│       ├── 03_DCL/     # 사용자 권한 관리
+│       └── 04_TCL/     # 트랜잭션 제어 (COMMIT, ROLLBACK)
 ├── homework/           # 과제
 └── exam/               # 시험 / 연습문제
 ```
