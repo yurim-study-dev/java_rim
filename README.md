@@ -26,6 +26,9 @@ Java 프로그래밍 학습 자료 저장소
 - [Chapter 13: 다형성(Polymorphism)과 인터페이스](docs/lecture/02.java_oop.md#13-객체지향-심화---다형성polymorphism과-인터페이스)
 - [Chapter 14: 자바 주요 패키지와 API](docs/lecture/02.java_oop.md#14-자바-주요-패키지와-api)
 
+### 4️⃣ 자바 고급
+- [Chapter 1: 예외 처리(Exception)](docs/lecture/05.java_advanced.md#1-예외-처리exception)
+
 ### 3️⃣ 데이터베이스 프로그래밍
 - [Chapter 1: 데이터베이스 기초 및 RDBMS 구조](docs/lecture/03.database-1.md#1-데이터베이스-기초)
 - [Chapter 2: SQL 기본 (DDL, DML, SELECT)](docs/lecture/03.database-1.md#2-sql-기본)
@@ -58,6 +61,8 @@ workspace/
 │       ├── 02_DML/     # SELECT, INSERT, UPDATE, DELETE
 │       ├── 03_DCL/     # 사용자 권한 관리
 │       └── 04_TCL/     # 트랜잭션 제어 (COMMIT, ROLLBACK)
+├── 04_advanced/        # 자바 고급
+│   └── ch01/           # 예외 처리
 ├── homework/           # 과제
 └── exam/               # 시험 / 연습문제
 ```
