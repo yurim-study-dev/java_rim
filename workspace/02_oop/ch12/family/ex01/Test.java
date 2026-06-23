@@ -5,7 +5,7 @@ public class Test {
 //        Parent p = new Parent("부모");
 //        Son p = new Son("아들");
 
-        Duaghter p = new Duaghter("딸");
+        Daughter p = new Daughter("딸");
 
 
         dailySchedule(p);
@@ -20,7 +20,7 @@ public class Test {
 
     }
 
-    private static void dailySchedule(Duaghter p){    //Parent 타입의 매개변수정의
+    private static void dailySchedule(Daughter p){    //Parent 타입의 매개변수정의
         p.eat();
         p.play();
         p.sleep();
