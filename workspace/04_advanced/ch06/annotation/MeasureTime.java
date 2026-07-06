@@ -1,0 +1,16 @@
+package ch06.annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+//매서드를 대상으로 지정
+@Target(ElementType.METHOD)
+
+// 실행 시점에 사용 가능하도록 유지 정책을 RUNTIME 으로 지정함
+@Retention(RetentionPolicy.RUNTIME)
+
+public @interface MeasureTime {
+
+}
